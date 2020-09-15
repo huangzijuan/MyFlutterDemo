@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:my_flutter_demo/body.dart';
 
+import 'animateddecorate/animatedwidgetstest.dart';
+import 'animatedswitch/animatedswitchercounterroute.dart';
 import 'hero/heroanimationroute.dart';
 
 void main() => runApp(MyApp());
@@ -24,7 +27,10 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(title: Text('测试测试'), ),
-        body: HeroAnimationRoute(),
+        //body: HeroAnimationRoute(),
+        //body: AnimatedSwitcherCounterRoute(),
+        body: AnimatedWidgetsTest(),
+        //body: Body(),
       ),
     );
   }
